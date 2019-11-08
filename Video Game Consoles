@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+<!-- inline style sheet/modification to header, body, and footer-->
+<style>
+header{
+   	 font-family: verdana;
+   	 text-align:center;
+   	 padding:5px;
+
+}
+
+body{
+   	 padding 10px;
+   	 font-family: comic-sans;
+   	 font-size: 120%;
+}
+
+
+table{
+   	 width: 100%;
+}
+
+table, th, td{
+   	 border: 1px solid black;
+   	 border-collapse: collapse;
+}
+
+td, th{
+   	 padding: 10px;
+}
+
+footer{
+   	 padding:5px;
+   	 font-family: Times New Roman;
+   	 text-alignment: center;
+   	 
+}
+img{
+	display: inline-block;
+	text-alignment: left;
+	height:225 px;
+	width: 300px;
+}
+</style>
+
+<title>Home Console History</title>
+
+</head>
+
+<!--header, title bolded-->
+<header>
+    <h1><b>Home Console History</b></h1>
+</header>
+
+<!--body, including three paragraphs, a table, and an image-->
+<body>
+
+    <p title ="Video Game Generations"> &nbsp;
+    All video game consoles can be divided into different <i>generations</i>.
+    Most of the consoles we use today, such as the XBox One or the PlayStation 4,
+    are considered to be in the eighth generation.
+    While most of the first generation consoles are made around the early 1970s,
+    popular ones include "Magnavox Odyssey" by Magnavox and "Home Pong" by Atari.</p>
+
+    <p title ="First Generation"> &nbsp;
+    Consoles from the First Generation, are dedicated consoles, consoles that can only play the game it came out with.
+    The logic of games are coded to a console's microchip, therefore no other game can be added.
+    These dedicated consoles are just called video games at the time, because their was little distinguishable between console and game.
+    Atari's arcade game "Pong" popularized console games around that time.</p>
+
+    <p title ="Second Generation"> &nbsp;
+    The second generation of video game consoles started in the mid 1970s all the way until the early 1990s.
+    Unlike First Generation's dedicated consoles, games are now burned inside ROM chips and placed inside cartilages.
+    These cartilages can be placed inside a slot of the console, each cartilage will run a different game.
+    Atari 2600's "Space Invaders" is the most successful second generation game ever.
+    Poor quality, over-hyped games, along with an over-saturated  market caused the video game crash of 1983.
+    Most gaming console companies such as Atari, Coleco, and Fairchild Technologies are bankrupted and discontinued.</p>
+
+    <table>
+		<caption style = "font-size: 160%">Home Consoles</caption>
+		<tr>
+			<th>First Generation</th>
+			<th>Second Generation</th>
+		</tr>
+		<tr>
+			<td>Magnavox Odyssey by Magnavox</td>
+			<td>Fairchild Channel F by Fairchild Semiconductor</td>
+		</tr>
+		<tr>
+			<td>Home Pong by Atari, Sears Tele-Games</td>
+			<td>Atari 2600 by Atari</td>
+		</tr>
+		<tr>
+			<td>Color TV-Game series by Nintendo</td>
+			<td>Bally Astrocade by Bally Technologies</td>
+		</tr>
+    </table>
+
+	<pre>
+	
+	</pre>
+	<img src ="http://playerschoicegames.com/wp-content/uploads/2011/05/Atari-C-100-Pong_www.jpg" alt="Atari Pong"/>
+	<p> Atari's "Pong", an iconic early home console</p>
+
+<!-- Didn’t really know what to put in the footer, so...-->
+<footer>
+    <p>Created by Vincent Software Engineering Period 3</p>
+</footer>
+
+</body>
+</html>
