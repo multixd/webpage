@@ -1,0 +1,209 @@
+html{
+    background: url(http://topinfopost.com/wp-content/uploads/2014/12/BELMAR.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+#navigation {
+	opacity:1;
+	background-color:#ffffff;
+	position:fixed;
+	width:95%;
+    height: 10%;
+	display: inline-block;
+    border: 5px solid black;
+    border-radius:15px;
+    left:3%
+}
+#body {
+	opacity:0.6;
+	background-color:#ff0000;
+	position:relative;
+	width:60%;
+	height: 320px;
+	left:19%;
+	border: 4px groove #cc0052;
+	top:200px;
+	font-family: comic-sans;
+   	font-size: 120%;
+	color:#ffff00;
+	padding:10px;
+	text-align:center;
+}
+table{
+	width:100%;
+	border: 2px solid #ffff00;
+	
+}
+td,tr,th{
+	font-family: comic-sans;
+   	font-size: 120%;
+	color:#ffff00;
+	padding:3px;
+	border: 2px solid #ffff00;
+}
+    .button{
+    background-color: #008CBA;
+    font-size: 100%;
+    border-radius: 10%;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 1.5% 3%;
+    text-align: center;
+    position: fixed;
+    top:3%;
+	
+}
+.button:hover{
+    background-color: #3e8e41;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang ="en-us">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Used for phone compatibility, not perfect but a quick fix-->
+<head>
+
+	<title>McDonalds</title>
+
+	<link type ="text/css" href="stylesheet.css" rel="stylesheet">
+	<!--cascading style sheet-->
+</head>
+
+<body>
+
+<div id ="navigation">
+<!-- Navigation div and buttons-->
+	<form action="index.html">
+		<input type="submit" value="Home" class ="button"style="left:15%">
+	</form>
+	
+	<form action="yelp.html">
+		<input type="submit" value="Yelp Review" class ="button" style="right:15%">
+	</form>
+
+	<form action="deliveryandlocation.html">
+		<input type="submit" value="Delivery and Location" class = "button"style="right:35%">
+	</form>
+	
+	<form action="menu.html">
+		<input type="submit" value="Menu" class = "button"style="right:60%">
+	</form>
+
+</div>
+<!--Body div and History Significance-->
+<div id ="body">
+	<h3>History</h3>
+	<p title ="History">Dick and Mac McDonald opened their eponymous burger stand in 1948 in San Bernardino, Calif. 
+	Under the guidance of Ray Kroc, a onetime milkshake-mixer salesman wowed by the restaurant's success, McDonald's franchises grew swiftly:
+	by the end of the 1960s, there were more than 1,000 across the U.S. The first international franchise opened in 1967 in British Columbia,
+	and was followed by another in Costa Rica later that year. From there, the chain spread steadily: over a six-month period in 1971, 
+	Golden Arches popped up on three new continents, as stores launched in Japan, Holland and a suburb of Sydney. A Brazilian McDonald's opened in 1979,
+	bringing Ronald McDonald to South America for the first time. McDonald's reached its sixth (and, barring a sub-Arctic drive-thru, final) continent in 1992,
+	with the opening of a restaurant in Casablanca, Morocco. Four years later, the company heralded the expansion into its 100th nation, 
+	Belarus, and claimed to be opening a new restaurant somewhere in the world every three hours.</p>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang ="en-us">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Used for phone compatibility, not perfect but a quick fix-->
+<head>
+
+	<title>McDonalds</title>
+
+	<link type ="text/css" href="stylesheet.css" rel="stylesheet">
+	<!--cascading style sheet-->
+</head>
+
+<body>
+
+<div id ="navigation">
+<!-- Navigation div and buttons-->
+	<form action="index.html">
+		<input type="submit" value="Home" class ="button"style="left:15%">
+	</form>
+	
+	<form action="yelp.html">
+		<input type="submit" value="Yelp Review" class ="button" style="right:15%">
+	</form>
+
+	<form action="deliveryandlocation.html">
+		<input type="submit" value="Delivery and Location" class = "button"style="right:35%">
+	</form>
+	
+	<form action="menu.html">
+		<input type="submit" value="Menu" class = "button"style="right:60%">
+	</form>
+
+</div>
+
+<!--Body div and Service Description-->
+<div id ="body">
+	<h3>Delivery Service</h3>
+	<p>drvie-throughs</p>
+	<h3>Locations</h3>
+	<p>All around the world.</p>
+	<h3>Hours of Service</h3>
+	<p>24 hours per day</p>
+
+</div>
+</body>
+</html>
